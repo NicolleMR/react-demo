@@ -1,0 +1,32 @@
+.cards {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+	justify-items: center;
+	gap: 15px;
+	padding: 60px 130px;
+
+	&__card {
+		background-color: darkgray;
+	}
+
+	&__img {
+		height: 300px;
+		width: 100%;
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+
+	&__info {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	&__brand {
+		margin: 5px 0;
+	}
+
+	span {
+		margin-bottom: 5px;
+	}
+}

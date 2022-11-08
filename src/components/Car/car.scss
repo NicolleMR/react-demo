@@ -1,0 +1,33 @@
+.card {
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+	justify-content: center;
+	align-items: center;
+	background-color: black;
+
+	&__name {
+		color: white;
+		margin-bottom: 30px;
+	}
+
+	&__price {
+		color: white;
+		margin: 12px 0;
+	}
+
+	&__year {
+		color: white;
+	}
+
+	&__img {
+		width: 40%;
+		background-size: cover;
+	}
+
+	&__info {
+		max-width: 510px;
+		text-align: justify;
+		color: white;
+	}
+}
